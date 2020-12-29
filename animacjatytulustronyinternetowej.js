@@ -1,4 +1,4 @@
-var title = new MovingTitle("Lisav jest super", 30000, 10);
+var title = new MovingTitle("Spenny To Pies", 2137000, 10);
 title.init();
 function MovingTitle(writeText, interval, visibleLetters) {
     var _instance = {};
