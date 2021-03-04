@@ -1,0 +1,240 @@
+                        <div class="card">
+                            <div class="card-header" id="accordion-tab-3-heading-1">
+                                <h5>
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-3-content-1" aria-expanded="false" aria-controls="accordion-tab-3-content-1">Jak zainstalować mody?</button>
+                                </h5>
+                            </div>
+                            <div class="collapse show" id="accordion-tab-3-content-1" aria-labelledby="accordion-tab-3-heading-1" data-parent="#accordion-tab-3">
+                                <div class="card-body">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <p><strong>WYMAGANE!! Forge:</strong><a href="https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.16.3-34.1.0/forge-1.16.3-34.1.0-installer.jar">https://files.minecraftforge.net/</a></p>
+                                    <p><strong>Paczka wszystkich modów:</strong><a href="strumyk-modowo1.16.3.zip">https://strumyk.modowo/paczka.zip</a></p>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="card">
+                            <div class="card-header" id="accordion-tab-3-heading-2">
+                                <h5>
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-3-content-2" aria-expanded="false" aria-controls="accordion-tab-3-content-2">Paczka Modów Strumyk-Modowo</button>
+                                </h5>
+                            </div>
+                            <div class="collapse show" id="accordion-tab-3-content-2" aria-labelledby="accordion-tab-3-heading-2" data-parent="#accordion-tab-3">
+                                <div class="card-body">
+                                    <p><strong>WYMAGANE!! Forge:</strong><a href="https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.16.3-34.1.0/forge-1.16.3-34.1.0-installer.jar"> https://files.minecraftforge.net/</a></p>
+                                    <p><strong>Paczka wszystkich modów:</strong><a href="strumyk-modowo1.16.3.zip"> paczka modów strumyk-modowo.zip</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="accordion-tab-3-heading-3">
+                                <h5>
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-3-content-3" aria-expanded="false" aria-controls="accordion-tab-3-content-3">Jak dostać się na Strymuk-Modowo</button>
+                                </h5>
+                            </div>
+                            <div class="collapse" id="accordion-tab-3-content-3" aria-labelledby="accordion-tab-3-heading-3" data-parent="#accordion-tab-3">
+                                <div class="card-body">
+                                    <p>Aby dostać się na serwer wystarczy nagrywać ciekawe filmy. Jak nas znacie to na pewno wiecie gdzie do nas napisać, ale jeśli nie znacie mnie ani Nitashiego to podania składajcie na email: <strong>StrumykModowo@gmail.com</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="accordion-tab-3-heading-4">
+                                <h5>
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-3-content-4" aria-expanded="false" aria-controls="accordion-tab-3-content-4">Lista modów</button>
+                                </h5>
+                            </div>
+                            <div class="collapse" id="accordion-tab-3-content-4" aria-labelledby="accordion-tab-3-heading-4" data-parent="#accordion-tab-3">
+                                <div class="card-body">
+                                    <li><a href="https://optifine.net/downloads">https://optifine.net/downloads</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/additional-enchanted-miner">https://www.curseforge.com/minecraft/mc-mods/additional-enchanted-miner</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/ai-improvements">https://www.curseforge.com/minecraft/mc-mods/ai-improvements</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/anvil-tweaks">https://www.curseforge.com/minecraft/mc-mods/anvil-tweaks</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/aquaculture">https://www.curseforge.com/minecraft/mc-mods/aquaculture</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/autoreglib">https://www.curseforge.com/minecraft/mc-mods/autoreglib</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/better-weather">https://www.curseforge.com/minecraft/mc-mods/better-weather</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/clumps">https://www.curseforge.com/minecraft/mc-mods/clumps</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/cofh-core">https://www.curseforge.com/minecraft/mc-mods/cofh-core</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked">https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/cqrepoured">https://www.curseforge.com/minecraft/mc-mods/cqrepoured</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/dungeon-crawl">https://www.curseforge.com/minecraft/mc-mods/dungeon-crawl</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/dungeons-mod">https://www.curseforge.com/minecraft/mc-mods/dungeons-mod</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/fastfurnace">https://www.curseforge.com/minecraft/mc-mods/fastfurnace</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/fastworkbench">https://www.curseforge.com/minecraft/mc-mods/fastworkbench</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/goblin-traders">https://www.curseforge.com/minecraft/mc-mods/goblin-traders</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/gravestone-mod">https://www.curseforge.com/minecraft/mc-mods/gravestone-mod</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/hwyla">https://www.curseforge.com/minecraft/mc-mods/hwyla</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing">https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/iron-chests">https://www.curseforge.com/minecraft/mc-mods/iron-chests</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/iron-shulker-boxes">https://www.curseforge.com/minecraft/mc-mods/iron-shulker-boxes</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/jei">https://www.curseforge.com/minecraft/mc-mods/jei</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer">https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/masonry">https://www.curseforge.com/minecraft/mc-mods/masonry</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/mekanism">https://www.curseforge.com/minecraft/mc-mods/mekanism</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/mekanism-additions">https://www.curseforge.com/minecraft/mc-mods/mekanism-additions</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/mekanism-generators">https://www.curseforge.com/minecraft/mc-mods/mekanism-generators</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/mekanism-tools">https://www.curseforge.com/minecraft/mc-mods/mekanism-toolsv
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks">https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod">https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/neat">https://www.curseforge.com/minecraft/mc-mods/neat</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-youll-go">https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-youll-go</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-crops">https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-crops</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-food-core">https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-food-core</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-trees">https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-trees</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/placebo">https://www.curseforge.com/minecraft/mc-mods/placebo</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/quark">https://www.curseforge.com/minecraft/mc-mods/quark</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/randompatches">https://www.curseforge.com/minecraft/mc-mods/randompatches</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/refined-storage">https://www.curseforge.com/minecraft/mc-mods/refined-storage</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/scalable-cats-force">https://www.curseforge.com/minecraft/mc-mods/scalable-cats-force</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/speedy-ladders">https://www.curseforge.com/minecraft/mc-mods/speedy-ladders</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/thermal-expansion">https://www.curseforge.com/minecraft/mc-mods/thermal-expansion</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/thermal-foundation">https://www.curseforge.com/minecraft/mc-mods/thermal-foundation</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/titanium">https://www.curseforge.com/minecraft/mc-mods/titanium</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/travellers-boots">https://www.curseforge.com/minecraft/mc-mods/travellers-boots</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/ultimate-car-mod">https://www.curseforge.com/minecraft/mc-mods/ultimate-car-mod</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/valhelsia-structures">https://www.curseforge.com/minecraft/mc-mods/valhelsia-structures</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/voxelmap">https://www.curseforge.com/minecraft/mc-mods/voxelmap</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/waddles">https://www.curseforge.com/minecraft/mc-mods/waddles</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/wither-skeleton-tweaks">https://www.curseforge.com/minecraft/mc-mods/wither-skeleton-tweaks</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-caves">https://www.curseforge.com/minecraft/mc-mods/yungs-better-caves</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge">https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge</a></li>
+                               </div>
+                            </div>                        
+                        </div>                            
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                            <div class="card">
+                            <div class="card-header" id="accordion-tab-4-heading-2">
+                                <h5>
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-4-content-2" aria-expanded="false" aria-controls="accordion-tab-4-content-2">Jak wejść na serwer?</button>
+                                </h5>
+                            </div>
+                            <div class="collapse" id="accordion-tab-4-content-2" aria-labelledby="accordion-tab-4-heading-2" data-parent="#accordion-tab-4">
+                                <div class="card-body">
+                                    <p>Po otrzymaniu rangi Sponsor dostaniesz dostęp do kanałów <strong>#hegegraft-regulamin</strong> oraz <strong>#hegegraft-whitelista</strong></p>
+                                    <p>Na kanale <strong>#hegegraft-whitelista</strong> napisz <strong>!dodaj nickWmc </strong>(serwer jest nonpremium)</p>
+                                    <p>Zapoznaj się z regulaminem zawartym na <strong>#hegegraft-regulamin</strong></p>
+                                    <p>Wszystko gotowe możesz zaczynać grę na serwerze <strong>Hegegraft.pl</strong></p>
+                                </div>
+                            </div>
+                        </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <div class="card">
+                            <div class="card-header" id="accordion-tab-4-heading-3">
+                                <h5>
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-4-content-3" aria-expanded="false" aria-controls="accordion-tab-4-content-3">Nie mam pomysłu</button>
+                                </h5>
+                            </div>
+                            <div class="collapse" id="accordion-tab-4-content-3" aria-labelledby="accordion-tab-4-heading-3" data-parent="#accordion-tab-4">
+                                <div class="card-body">
+                                    <p><strong></strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="accordion-tab-4-heading-4">
+                                <h5>
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-4-content-4" aria-expanded="false" aria-controls="accordion-tab-4-content-4">Nic tu nie szukaj</button>
+                                </h5>
+                            </div>
+                            <div class="collapse" id="accordion-tab-4-content-4" aria-labelledby="accordion-tab-4-heading-4" data-parent="#accordion-tab-4">
+                                <div class="card-body">
+                                    <p><strong></strong></p>
+                                </div>
+                            </div>
+                        </div>
