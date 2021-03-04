@@ -1,5 +1,12 @@
 var title = new MovingTitle("Spenny To Pies", 2137000, 10);
 title.init();
+function ChangeActiveSection() {
+    var url = window.location.href;
+    var activeTab = url.substring(url.indexOf("#") + 1);
+    $('a[href="#'+ activeTab +'"]').tab('show');
+};
+window.onload = ChangeActiveSection;
+window.onhashchange = ChangeActiveSection;
 function MovingTitle(writeText, interval, visibleLetters) {
     var _instance = {};
 
