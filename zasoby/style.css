@@ -10,6 +10,88 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 */
 
 
+/* Copyright (c) 2022 by Jon Kantner (https://codepen.io/jkantner/pen/XWXXJPV) */
+* {
+	border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--dur: 3s;
+	--arrowA: polygon(33% 0%,67% 0%,67% 60%,100% 60%,50% 100%,0% 60%,33% 60%);
+	--arrowB: polygon(0% 37.5%,100% 37.5%,100% 62.5%,100% 62.5%,50% 62.5%,0% 62.5%,0% 62.5%);
+	
+}
+
+button {
+    font-size: 1.5em;
+	background: #255ff4;
+	border-radius: 0.2em;
+	color: #fff;
+	cursor: pointer;
+	display: flex;
+	margin: auto;
+	padding: 0.5em 1em;
+	position: relative;
+	transition: background 0.15s linear;
+	width: 10.5em;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+button:before, button:after {
+	border-radius: 0.25em;
+	opacity: 0;
+	top: 1em;
+	left: 1.3em;
+	height: 0.5em;
+	transform-origin: 0.25em 50%;
+	z-index: 2;
+}
+
+button:before, button:after, .dl-icon:before, .dl-icon:after {
+	content: "";
+	display: block;
+	position: absolute;
+}
+button:before, button:after, .dl-icon:before {
+	background: currentColor;
+}
+button span + span {
+	margin: auto;
+}
+.dl-icon {
+	margin-right: 0.5em;
+	position: relative;
+	width: 1.5em;
+	height: 1.5em;
+    
+}
+.dl-icon:before {
+	clip-path: var(--arrowA);
+	left: calc(50% - 0.55em);
+	transform-origin: 50% 100%;
+	width: 1.1em;
+	height: 1em;
+	z-index: 1;
+}
+.dl-icon:after {
+	box-shadow:
+		0.20em 0 0 inset,
+		-0.20em 0 0 inset,
+		0 -0.20em 0 inset;
+	bottom: 0;
+	width: 100%;
+	height: 0.5em;
+}
+
+.sanepid {
+    font-size: 0.9em;
+    color: black;
+}
 
 body {
   margin-top: 30px;
