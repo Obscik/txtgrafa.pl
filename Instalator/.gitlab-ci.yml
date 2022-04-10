@@ -1,0 +1,15 @@
+image: java:8
+
+before_script:
+  - which java
+  - which javac
+
+build:
+  script:
+    - ./gradlew build
+    - ./gradlew clean
+    - ./gradlew build -Pdonorbuild="true"
+  artifacts:
+    paths:
+      - packager/*
+    expire_in: 2 yrs

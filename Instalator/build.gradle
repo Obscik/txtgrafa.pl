@@ -1,0 +1,109 @@
+import org.apache.tools.ant.filters.ReplaceTokens
+
+buildscript {
+    repositories {
+        maven { url "https://plugins.gradle.org/m2/" }
+    }
+    dependencies {
+        classpath "io.freefair.gradle:lombok-plugin:4.1.6"
+    }
+}
+
+apply plugin: "io.freefair.lombok"
+apply plugin: 'java'
+
+group 'me.deftware'
+version '2.0.1'
+
+def donorBuild = project.hasProperty('donorbuild') ? project.property('donorbuild').toString() : "false"
+
+sourceCompatibility = 1.8
+
+def urlFile = { url, name ->
+    File file = new File("$buildDir/download/${name}.jar")
+    file.parentFile.mkdirs()
+    if (!file.exists()) {
+        new URL(url).withInputStream { downloadStream ->
+            file.withOutputStream { fileOut ->
+                fileOut << downloadStream
+            }
+        }
+    }
+    files(file.absolutePath)
+}
+
+
+configurations {
+    extraLibs
+    implementation.extendsFrom(extraLibs)
+}
+
+repositories {
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+    maven { url "https://repo.maven.apache.org/maven2" }
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    extraLibs urlFile("https://gitlab.com/Aristois/Installer/-/jobs/2142062951/artifacts/raw/packager/free/Installer-2.0.2.jar", "install-api-2.0.2.jar")
+
+    annotationProcessor 'org.projectlombok:lombok:1.18.22'
+    // LWJGL
+    extraLibs group: 'org.lwjgl', name: 'lwjgl', version:'3.2.3'
+    extraLibs group: 'org.lwjgl', name: 'lwjgl-glfw', version:'3.2.3'
+    extraLibs group: 'org.lwjgl', name: 'lwjgl-opengl', version:'3.2.3'
+    extraLibs group: 'org.lwjgl', name: 'lwjgl-tinyfd', version:'3.2.3'
+
+    // Windows 64 bit natives
+    extraLibs group: 'org.lwjgl', name: 'lwjgl', version:'3.2.3', classifier:'natives-windows'
+    extraLibs group: 'org.lwjgl', name: 'lwjgl-opengl', version:'3.2.3', classifier:'natives-windows'
+    extraLibs group: 'org.lwjgl', name: 'lwjgl-glfw', version:'3.2.3', classifier:'natives-windows'
+    extraLibs group: 'org.lwjgl', name: 'lwjgl-tinyfd', version:'3.2.3', classifier:'natives-windows'
+
+    // Windows 32 bit natives
+    extraLibs group: 'org.lwjgl', name: 'lwjgl', version:'3.2.3', classifier:'natives-windows-x86'
+    extraLibs group: 'org.lwjgl', name: 'lwjgl-opengl', version:'3.2.3', classifier:'natives-windows-x86'
+    extraLibs group: 'org.lwjgl', name: 'lwjgl-glfw', version:'3.2.3', classifier:'natives-windows-x86'
+    extraLibs group: 'org.lwjgl', name: 'lwjgl-tinyfd', version:'3.2.3', classifier:'natives-windows-x86'
+
+    // Linux 64 bit natives
+    extraLibs group: 'org.lwjgl', name: 'lwjgl', version:'3.2.3', classifier:'natives-linux'
+    extraLibs group: 'org.lwjgl', name: 'lwjgl-opengl', version:'3.2.3', classifier:'natives-linux'
+    extraLibs group: 'org.lwjgl', name: 'lwjgl-glfw', version:'3.2.3', classifier:'natives-linux'
+    extraLibs group: 'org.lwjgl', name: 'lwjgl-tinyfd', version:'3.2.3', classifier:'natives-linux'
+
+    extraLibs group: 'org.l33tlabs.twl', name: 'pngdecoder', version: '1.0'
+    extraLibs group: 'org.apache.commons', name: 'commons-lang3', version: '3.10'
+    extraLibs group: 'com.google.guava', name: 'guava', version: '29.0-jre'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+task copyToPackager(type: Copy) {
+    from "build/libs/"
+    into 'packager/'
+    rename (
+            "installer-${version}.jar", (donorBuild == "true" ? "Aristois-Donor.jar" : "Aristois-Free.jar")
+    )
+}
+
+build.dependsOn(copyToPackager)
+
+jar {
+    from {
+        configurations.extraLibs.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    manifest.attributes(
+            "build_date": new Date().format('yyyy/MM/dd HH:mm'),
+            "Main-Class": 'me.deftware.installer.Main',
+            "Manifest-Version": 1.0
+    )
+}
+
+def copyDir = "$compileJava.temporaryDir/replaced"
+task tokenReplace(type: Copy) {
+    from(sourceSets.main.java.sourceDirectories)
+    into copyDir
+    filter(ReplaceTokens, tokens: [DONOR: donorBuild, VERSION: version])
+}
+compileJava.setSource(copyDir)
+compileJava.dependsOn(tokenReplace)
