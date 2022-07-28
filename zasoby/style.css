@@ -37,7 +37,9 @@ main {
 }
 
 .button:hover {
-	background: #f52dd4;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+	background: #ff01d5;
 }
 
 .download {
