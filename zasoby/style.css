@@ -18,13 +18,14 @@ html body{
 }
 
 main {
+    position: relative;
     min-height: calc(100% - 80px);
 }
 
-button {
+.button {
     font-size: 2em;
-	background: #296aea;
-	border-radius: 100em;
+	background: #1da319;
+	border-radius: 0.5em;
 	color: #fff;
 	cursor: pointer;
 	display: flex;
@@ -35,6 +36,45 @@ button {
 
 }
 
+.button:hover {
+	background: #f52dd4;
+}
+
+.download {
+display:flex;
+justify-content: center;
+text-align: center;
+}
+
+form {
+    align-items: baseline;
+}
+.subtitle {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: auto;
+}
+
+select {
+    height: 3rem;
+    border-radius: 10px;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+.btn-primary {
+    width: 10rem;
+    height: 3rem;
+    font-size: 2em;
+    background-color: limegreen;
+    color: #fff;
+    border-radius: 15px;
+    border-style: inherit;
+    margin-top: 1rem;
+    cursor: pointer;
+}
 
 a {
     text-decoration: none;
@@ -353,9 +393,6 @@ span {
         margin-right: 20px;
     }
 
-    .general * {
-
-    }
     .stats {
         width: auto;
     }
