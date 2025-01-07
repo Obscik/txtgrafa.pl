@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paczka Grafa - Informacje</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        .animate-fadeIn {
+            animation: fadeIn 0.5s ease-out;
+        }
+        .animate-slideIn {
+            animation: slideIn 0.5s ease-out;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-200 min-h-screen flex flex-col">
+    <nav class="bg-gray-800 p-4 shadow-md fixed top-0 w-full z-10">
+        <div class="container mx-auto flex flex-wrap justify-between items-center">
+            <a href="/" class="text-lg font-semibold text-gray-100 flex items-center mb-2 md:mb-0">
+                <img src="/logo.png" alt="Logo" class="h-8 mr-2"> txtgrafa.pl
+            </a>
+            <div class="flex flex-wrap space-x-2 md:space-x-4">
+                <a href="/paczka" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-3 py-1 md:px-4 md:py-2 rounded-md text-sm md:text-base mb-2 md:mb-0 transition-colors duration-300">Paczka</a>
+                <a href="/rozne" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-3 py-1 md:px-4 md:py-2 rounded-md text-sm md:text-base mb-2 md:mb-0 transition-colors duration-300">Różne</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="flex-grow container mx-auto px-4 py-8 mt-20">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl font-bold mb-8 text-center text-gray-200 animate-slideIn">Paczka Grafa</h1>
+            <div class="space-y-6 animate-fadeIn">
+                <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+                    <h2 class="text-2xl font-semibold mb-4 text-gray-200">Jak korzystać z Paczki Grafa?</h2>
+                    <p class="mt-2">Aby korzystać z paczki zasobów Grafa należy pobrać wybrane przez siebie paczki, następnie przenieść je do folderu <strong>resourcepacks</strong>, do którego dostęp możemy uzyskać klikając przycisk <strong>Otwórz folder z paczkami zasobów</strong> zlokalizowany na dole ekranu w zakładce Paczki Zasobów w ustawieniach Minecrafta.</p>
+                                    <p class="mt-2">Do pełnego korzystania z paczki potrzebny nam będzie <strong><a class="text-blue-400" href="https://optifine.net/downloads">Optifine</a></strong>. Aby go zainstalować, pobieramy wybraną przez nas wersje (adekwatną do wersji gry na której chcemy grać). Następnie klikamy dwukrotnie na pobrany plik i postępujemy zgodnie z instrukcjami widocznymi na ekranie.</p>
+                                    <p class="mt-2">Jeśli podczas instalowania Optifine wyskoczy błąd, oznacza to że nie mamy zainstalowanego <strong><a class="text-blue-400" href="https://java.com/en/download/">oprogramowania Java</a></strong>. Aby je zainstalować klikamy w duży czerwony przycisk na stronie Java, następnie klikamy dwukrotnie w pobrany plik i postępujemy zgodnie z instrukcjami na ekranie. </p>
+                                    <p class="mt-4"><strong>Optifine: </strong><a class="text-blue-400" href="https://optifine.net/downloads">https://optifine.net/downloads</a></p>
+                                    <p class="mt-2"><strong>Java: </strong><a class="text-blue-400" href="https://java.com/en/download/">https://java.com/en/download/</a></p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+                    <h2 class="text-2xl font-semibold mb-4 text-gray-200">Czy Paczka Grafa jest darmowa?</h2>
+                    <p class="text-gray-300">Tak, Paczka Grafa jest całkowicie darmowa. Zachęcamy jednak do wsparcia naszego projektu, jeśli uważasz go za przydatny.</p>
+                    <p class="text-gray-300 mt-2">Pierwsze wersje paczki były tworzone przez <a class="text-blue-400" href="https://namemc.com/profile/4fa3d966-93d3-4e7d-9618-5f6532864a53">Grafa</a>.</p>
+                    <p class="text-gray-300">Drugą ulepszoną wersją paczki zajmuje się aktualnie <a class="text-blue-400" href="https://namemc.com/profile/a9c21032-2dc7-41f9-a7c4-da0430c0ab2a">Masta</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+

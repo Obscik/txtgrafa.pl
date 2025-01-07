@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Różne Elementy - Informacje</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        .animate-fadeIn {
+            animation: fadeIn 0.5s ease-out;
+        }
+        .animate-slideIn {
+            animation: slideIn 0.5s ease-out;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-200 min-h-screen flex flex-col">
+    <nav class="bg-gray-800 p-4 shadow-md fixed top-0 w-full z-10">
+        <div class="container mx-auto flex flex-wrap justify-between items-center">
+            <a href="/" class="text-lg font-semibold text-gray-100 flex items-center mb-2 md:mb-0">
+                <img src="/logo.png" alt="Logo" class="h-8 mr-2"> txtgrafa.pl
+            </a>
+            <div class="flex flex-wrap space-x-2 md:space-x-4">
+                <a href="/paczka" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-3 py-1 md:px-4 md:py-2 rounded-md text-sm md:text-base mb-2 md:mb-0 transition-colors duration-300">Paczka</a>
+                <a href="/rozne" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-3 py-1 md:px-4 md:py-2 rounded-md text-sm md:text-base mb-2 md:mb-0 transition-colors duration-300">Różne</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="flex-grow container mx-auto px-4 py-8 mt-20">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl font-bold mb-8 text-center text-gray-200 animate-slideIn">Różne Elementy</h1>
+            <div class="space-y-6 animate-fadeIn">
+                <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+                    <h2 class="text-2xl font-semibold mb-4 text-gray-200">Tapeta</h2>
+                    <p class="text-gray-300"><strong>Tapeta Grafa:</strong><a class="text-blue-400" href="https://steamcommunity.com/sharedfiles/filedetails/?id=1406608111"> https://steamcommunity.com/sharedfiles/filedetails/?id=1406608111</a></p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+                    <h2 class="text-2xl font-semibold mb-4 text-gray-200">Lunar Client</h2>
+                    <p class="text-gray-300"><a class="text-blue-400" href="https://txtgrafa.pl/pliki/Profile 599065437.zip"><strong>Config do Lunara</strong></a></p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+                    <h2 class="text-2xl font-semibold mb-4 text-gray-200">Peleryna Optifine</h2>
+                    <p class="text-gray-300">Pelerynka Grafa: <a class="text-blue-400" href="https://coolshoes.moxvallix.com/banner?=aaozaeooooaFbK">https://coolshoes.moxvallix.com/banner?=aaozaeooooaFbK</a></p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+                    <h2 class="text-2xl font-semibold mb-4 text-gray-200">Sprzęt</h2>
+                     <p><a class="text-blue-400" href="http://bit.ly/SprzetGrafa">http://bit.ly/SprzetGrafa</a></p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+                    <h2 class="text-2xl font-semibold mb-4 text-gray-200">Kwadratowa Masakra</h2>
+                    <p><strong>WYMAGANE!! Fabric:</strong><a class="text-blue-400" href="https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.9.0/fabric-installer-0.9.0.exe"> https://fabricmc.net/</a></p>
+                    <p><strong>Paczka wszystkich modów:</strong><a class="text-blue-400" href="https://txtgrafa.pl/pliki/kwadratowa-masakra-mody-FABRIC-1.17.zip"> https://txtgrafa.pl/pliki/kwadratowa-masakra-mody-FABRIC-1.17.zip</a></p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+                    <h2 class="text-2xl font-semibold mb-4 text-gray-200">Strumyk Modowo</h2>
+                    <p><strong>WYMAGANE!! Forge:</strong><a class="text-blue-400" href="https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.16.3-34.1.0/forge-1.16.3-34.1.0-installer.jar"> https://files.minecraftforge.net/</a></p>
+                    <p><strong>Paczka wszystkich modów:</strong><a  href="https://txtgrafa.pl/pliki/strumyk-modowo1.16.3.zip"> https://txtgrafa.pl/pliki/strumyk-modowo1.16.3.zip</a></p>
+                </div>
+
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
