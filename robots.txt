@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /index.html
+Disallow: /
+
+Sitemap: https://txtgrafa.pl/sitemap.xml
