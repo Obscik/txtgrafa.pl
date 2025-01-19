@@ -139,6 +139,16 @@
         // Initialize with default category
         populateFiles('overlay');
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script>
+        document.getElementById('download').addEventListener('click', () => {
+            confetti({
+                particleCount: 120,
+                spread: 75,
+                origin: { y: 0.65 }
+            });
+        });
+    </script>
 </body>
 </html>
 
